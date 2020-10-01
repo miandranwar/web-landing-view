@@ -1,0 +1,98 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+section {
+    width: 100%;
+    height: 100vh;
+
+}
+header {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: rgb(103,11,241);
+    background: linear-gradient(180deg, rgba(103,11,241,1) 53%, rgba(255,255,255,1) 53%);
+
+}
+.box-1 {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    background-image: url(austin-distel-wD1LRb9OeEo-unsplash.jpg);
+    background-size: cover;
+    background-position: 50%, 50% ;
+    filter: grayscale(1);
+}
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    z-index: 1;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.menu {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px 20px;
+}
+.box-2 {
+    position: absolute;
+    bottom: 5px;
+    left: 135px;
+    width: 80%;
+    height: 30%;
+    border-radius: 5px;
+    background-color:rgb(103,11,241) ;
+}
+.text {
+    position: absolute;
+    bottom: 0px;
+    left: 25%;
+    width: 60%;
+    height: 30%;
+}
+.text h1 {
+    position: absolute;
+    top: -60px;
+    left: 20px;
+    font-size: 6rem;
+    color: yellow;
+    text-shadow: -6px 6px 0 rgb(103,11,241), -8px 8px 0 rgba(0,0,0,0.8);
+    
+}
+.text h5 {
+    position: absolute;
+    top: 50px;
+    left: 22%;
+    font-size: 2rem;
+    color: #fff;
+}
+.text p {
+    position: absolute;
+    top: 90px;
+    left: 22%;
+    color: #fff;
+}
+.btn {
+    position: absolute;
+    bottom: 30px;
+    left: 45%;
+    color: #ff0;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #000;
+    text-align: center;
+    padding: 10px 0px;
+
+}

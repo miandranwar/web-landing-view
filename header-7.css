@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+.box1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(georgie-cobbs-bKjHgo_Lbpo-unsplash.jpg);
+    background-size: cover;
+}
+.logo  {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-size: 1.5rem;
+    color:#50A31D;
+}
+.menu  {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    
+}
+.menu a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:#50A31D;
+    margin: 0px 20px;
+}
+.box2 {
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    color: #F1DA32;
+    font-size: 4rem;
+    text-shadow: 6px 6px 0px #D9D6CF,
+                8px 8px 0px #50A31D;
+}
+.btn {
+    position: absolute;
+    bottom: 80px;
+    left: 45%;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
